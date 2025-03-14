@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.quote-number {
+
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+#breakpoint {
+    content: url(/images/pattern-divider-desktop.svg);
+}
+
+.quote {
+    font-weight: 500;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    margin: 20px 20px 20px 40px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    ;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    transform: translateY(30px);
+}
+
+button:hover {
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
+
+@media only screen and (max-width:650px) {
+    .container {
+        padding-top: 20px;
+    }
+
+    .quote {
+        width: 400px;
+        margin: 20px 0 0 40px;
+    }
+
+    #breakpoint {
+        content: url(/images/pattern-divider-mobile.svg);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
