@@ -34,7 +34,7 @@ body {
 }
 
 #breakpoint {
-    content: url(/images/pattern-divider-desktop.svg);
+    content: url(images/pattern-divider-desktop.svg);
 }
 
 .quote {
